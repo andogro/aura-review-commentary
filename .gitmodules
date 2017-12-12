@@ -1,0 +1,3 @@
+[submodule "fastcmp"]
+	path = fastcmp
+	url = https://github.com/saschagrunert/fastcmp
