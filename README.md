@@ -97,8 +97,8 @@ the following course of action was taken:
 - [x] **C2** Avoid casting down to 32-bit by dropping the need to use `Duration` type
       for representing step duration (which is typically single or double digits seconds)
       https://github.com/oraclesorg/parity/commit/fa2ddce949d8a227b7135b300003f0a5bceddc0f
-- [ ] **C2.1** Prepare a PR and get it merged into the main repository (or get resolved in
-      any other way)
+- [X] **C2.1** Prepare a PR and get it merged into the main repository (or get resolved in
+      any other way) https://github.com/paritytech/parity/pull/7282
 
 ### Potential integer overflow
 
@@ -108,8 +108,8 @@ however, the following course of action was taken:
 
 - [x] **C3** Shutdown parity when such event occurs as there's not much that can be done
       at that point https://github.com/oraclesorg/parity/commit/fa2ddce949d8a227b7135b300003f0a5bceddc0f
-- [ ] **C3.1** Prepare a PR and get it merged into the main repository (or get resolved in
-      any other way)
+- [X] **C3.1** Prepare a PR and get it merged into the main repository (or get resolved in
+      any other way) https://github.com/paritytech/parity/pull/7282
 
 
 ### Potential division by zero
@@ -121,8 +121,8 @@ the lack of refinement types in Rust. Following course of action was taken:
 
 - [x] **C4** Guard step duration parameter to be positive and crash Parity otherwise
      https://github.com/oraclesorg/parity/commit/fa2ddce949d8a227b7135b300003f0a5bceddc0f
-- [ ] **C4.1** Prepare a PR and get it merged into the main repository (or get resolved in
-      any other way)
+- [X] **C4.1** Prepare a PR and get it merged into the main repository (or get resolved in
+      any other way) https://github.com/paritytech/parity/pull/7282
 
 ### Other possible improvements
 
